@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+}
+
+nav a[aria-current='page'] {
+  display: inline-block;
+  color: #000;
+  background-color: #d4d4d4;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+  border: solid rgb(22, 22, 22);
+}
+
+nav a {
+  display: inline-block;
+  min-width: 9rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  border: solid 1px rgb(22, 22, 22);
+  text-align: center;
+  text-decoration: none;
+  color: #1b1b1b;
+  background-color: #d4d4d4;
+}
+
+span {
+  display: block;
+}
+.canvas {
+  margin: 100px auto 100px;
+  width: 80%;
+  text-align: center;
+}
+
+.button {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+}
+
+#Red {
+  background: rgb(190, 16, 16);
+  text-align: center;
+}
+
+#Blue {
+  background: rgb(50, 50, 200);
+  text-align: center;
+}
+#Green {
+  background: rgb(25, 150, 25);
+  text-align: center;
+}
+#Yellow {
+  background: rgb(200, 200, 20);
+  text-align: center;
+}
+#Grey {
+  background: rgb(128, 128, 128);
+  text-align: center;
+}
+#Purple {
+  background: rgb(165, 5, 165);
+  text-align: center;
+}
+
